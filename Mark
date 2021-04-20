@@ -1,0 +1,13 @@
+程式說明
+
+1. Authentication
+	https://jetstream.laravel.com/2.x/installation.html
+
+2. 修改資料庫設定為 MAMP Pro
+	於 config/database.php
+	
+	'unix_socket' => env('DB_SOCKET', '/Applications/MAMP/tmp/mysql/mysql.sock'),
+
+3. php artisan storage:link
+
+4. 刪除前警示功能 sweetalert2
